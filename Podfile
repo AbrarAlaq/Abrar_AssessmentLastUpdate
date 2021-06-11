@@ -13,7 +13,7 @@ target 'Abrar_Assessment' do
   end
 
   target 'Abrar_AssessmentUITests' do
-pod 'SwiftWebSocket'
+pod 'SwiftWebSocket', :git => 'git@github.com:AbrarAlaq/Assessment2.git', :branch => 'main'
   end
 
 end
