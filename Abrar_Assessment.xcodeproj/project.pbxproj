@@ -11,8 +11,8 @@
 		758C2E01266B6E4F003A9171 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758C2E00266B6E4F003A9171 /* DataModel.swift */; };
 		758C2E7C26739AAB003A9171 /* Assessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 758C2E7A26739AAB003A9171 /* Assessment.xcdatamodeld */; };
 		758C2E7E2673D16A003A9171 /* InternetConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758C2E7D2673D16A003A9171 /* InternetConnectionManager.swift */; };
-		758C2ED226744D31003A9171 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758C2ED026744D30003A9171 /* WebSocket.swift */; };
 		758C2ED526744D4A003A9171 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 758C2ED426744D4A003A9171 /* libz.1.1.3.tbd */; };
+		758CC4FA268B8411000C4F1B /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758CC4F9268B8411000C4F1B /* WebSocket.swift */; };
 		759A12CB266B6503003CF63C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759A12CA266B6503003CF63C /* TableViewCell.swift */; };
 		75DA10EC266A2D84006C7C31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA10EB266A2D84006C7C31 /* AppDelegate.swift */; };
 		75DA10EE266A2D84006C7C31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA10ED266A2D84006C7C31 /* SceneDelegate.swift */; };
@@ -46,9 +46,9 @@
 		758C2E00266B6E4F003A9171 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		758C2E7B26739AAB003A9171 /* Assessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Assessment.xcdatamodel; sourceTree = "<group>"; };
 		758C2E7D2673D16A003A9171 /* InternetConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectionManager.swift; sourceTree = "<group>"; };
-		758C2ED026744D30003A9171 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = "../../SwiftWebSocket-master-3/Source/WebSocket.swift"; sourceTree = "<group>"; };
-		758C2ED126744D30003A9171 /* SwiftWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftWebSocket.h; path = "../../SwiftWebSocket-master-3/Source/SwiftWebSocket.h"; sourceTree = "<group>"; };
 		758C2ED426744D4A003A9171 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		758CC4F8268B8409000C4F1B /* SwiftWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftWebSocket.h; sourceTree = "<group>"; };
+		758CC4F9268B8411000C4F1B /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
 		759A12CA266B6503003CF63C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		75DA10E8266A2D84006C7C31 /* Abrar_Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abrar_Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DA10EB266A2D84006C7C31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,8 +124,8 @@
 		75DA10EA266A2D84006C7C31 /* Abrar_Assessment */ = {
 			isa = PBXGroup;
 			children = (
-				758C2ED126744D30003A9171 /* SwiftWebSocket.h */,
-				758C2ED026744D30003A9171 /* WebSocket.swift */,
+				758CC4F8268B8409000C4F1B /* SwiftWebSocket.h */,
+				758CC4F9268B8411000C4F1B /* WebSocket.swift */,
 				75DA10EB266A2D84006C7C31 /* AppDelegate.swift */,
 				75DA10ED266A2D84006C7C31 /* SceneDelegate.swift */,
 				75DA10EF266A2D84006C7C31 /* ViewController.swift */,
@@ -386,7 +386,7 @@
 				75DA10EC266A2D84006C7C31 /* AppDelegate.swift in Sources */,
 				75DA10EE266A2D84006C7C31 /* SceneDelegate.swift in Sources */,
 				758C2E7E2673D16A003A9171 /* InternetConnectionManager.swift in Sources */,
-				758C2ED226744D31003A9171 /* WebSocket.swift in Sources */,
+				758CC4FA268B8411000C4F1B /* WebSocket.swift in Sources */,
 				758C2E01266B6E4F003A9171 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
